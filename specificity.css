@@ -1,0 +1,30 @@
+<!docktype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="specificity.css">
+<style>
+.favourite{
+    color: red;
+    font-weight: bold;
+
+}
+
+ul#summer-drinks li{
+    font-size: 12px;
+    color:black;
+    font: weight 100;
+}
+
+</style>
+<title>specificity</title>
+</head>
+<body>
+<ul id="summer-drinks">
+<li>coca cola</li>
+<li class="favourite">bear</li>
+<li>beeru</li>
+</ul>
+</body>
+</html>
